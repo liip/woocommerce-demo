@@ -4,7 +4,7 @@
     "license": "MIT",
     "require": {
         "johnpbloch/wordpress-core-installer": "~0.2",
-        "johnpbloch/wordpress": "~4.4"
+        "johnpbloch/wordpress": "~4.5"
     },
     "extra": {
         "wordpress-install-dir": "wp"
