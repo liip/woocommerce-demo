@@ -1,5 +1,5 @@
 # WordPress 4.4 Example
-
+Edited by Liip
 This is a no-thrills example of a minimal repository to deploy a WordPress 4.4 instance on Platform.sh
 
 This example is based on using Composer. You can see there is not much in terms of files comitted to this repository.
