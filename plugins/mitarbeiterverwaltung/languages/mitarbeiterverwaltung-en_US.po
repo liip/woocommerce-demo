@@ -1,0 +1,343 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: mitarbeiterverwaltung-ipa\n"
+"POT-Creation-Date: 2015-04-26 17:38+0100\n"
+"PO-Revision-Date: 2015-04-26 17:38+0100\n"
+"Last-Translator: Marc Brühwiler <marc.bruehwiler@liip.ch>\n"
+"Language-Team: Marc Bruehwiler <marc.bruehwiler@liip.ch>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;_x;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: /var/www/mitarbeiterverwaltung-ipa/content/plugins/"
+"mitarbeiterverwaltung\n"
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/mitarbeiterverwaltung.php:35
+msgid ""
+"Achtung - Installieren Sie folgendes Plugin damit das Plugin "
+"\"Mitarbeiterverwaltung\" aktiviert werden kann! --> <a target=\"_blank\" "
+"href=\"https://github.com/humanmade/Custom-Meta-Boxes\">Zum Download</a>"
+msgstr ""
+"Attention - Install the following plugin so that the plugin "
+"\"Mitarbeiterverwaltung\" can be activated! --> <a target=\"_blank\" href="
+"\"https://github.com/humanmade/Custom-Meta-Boxes\">To the download</a>"
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_metaBoxes.php:26
+msgid "Mitarbeiterbezogene Angaben"
+msgstr "Employee-related Informations"
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_metaBoxes.php:29
+msgid "Anrede"
+msgstr "Salutation"
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_metaBoxes.php:31
+msgid "Herr"
+msgstr "Mr."
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_metaBoxes.php:31
+msgid "Frau"
+msgstr "Mrs."
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_metaBoxes.php:33
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_fieldValidation.php:40
+msgid "Vorname"
+msgstr "Firstname"
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_metaBoxes.php:34
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_fieldValidation.php:41
+msgid "Nachname"
+msgstr "Lastname"
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_metaBoxes.php:35
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_fieldValidation.php:42
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/templates/single-cpt_employee.php:23
+msgid "Strasse"
+msgstr "Street"
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_metaBoxes.php:36
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_fieldValidation.php:43
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/templates/single-cpt_employee.php:25
+msgid "PLZ"
+msgstr "PLZ"
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_metaBoxes.php:37
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_fieldValidation.php:44
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/templates/single-cpt_employee.php:27
+msgid "Ort"
+msgstr "Place"
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_metaBoxes.php:38
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_fieldValidation.php:39
+msgid "Email"
+msgstr "Email"
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_metaBoxes.php:39
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_fieldValidation.php:45
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/templates/single-cpt_employee.php:31
+msgid "Telefon"
+msgstr "Phone"
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_metaBoxes.php:40
+msgid "Geburtsdatum (mm/dd/YYYY)"
+msgstr "Birthdate (mm/dd/YYYY)"
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_metaBoxes.php:43
+msgid "Bemerkungen"
+msgstr "Remark"
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_metaBoxes.php:49
+msgid "Firmenbezogene Angaben"
+msgstr "Company-related Informations"
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_metaBoxes.php:50
+msgid "Anstellungsdatum (mm/dd/YYYY)"
+msgstr "Employment Date (mm/dd/YYYY)"
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_metaBoxes.php:51
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_fieldValidation.php:48
+msgid "Arbeitsstandort"
+msgstr "Work Location"
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_metaBoxes.php:55
+msgid "Mitarbeiter Details"
+msgstr "Employee Details"
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_metaBoxes.php:61
+msgid "Firmen Details"
+msgstr "Company Details"
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_taxonomie.php:19
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_taxonomie.php:20
+msgid "Mitarbeiterkategorie"
+msgstr "Employee Category"
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_taxonomie.php:21
+msgid "Mitarbeiterkategorien"
+msgstr "Employee Categories"
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_taxonomie.php:22
+msgid "Alle Kategorien"
+msgstr "All Categories"
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_taxonomie.php:23
+msgid "Übergeordnete Mitarbeiterkategorie"
+msgstr "Parent Employee Category"
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_taxonomie.php:24
+msgid "Übergeordnete Mitarbeiterkategorie:"
+msgstr "Parent Employee Category:"
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_taxonomie.php:25
+msgid "Neue Mitarbeiterkategorie"
+msgstr "New Employee Category"
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_taxonomie.php:26
+msgid "Mitarbeiterkategorie hinzufügen"
+msgstr "Add Employee Category"
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_taxonomie.php:27
+msgid "Mitarbeiterkategorie bearbeiten"
+msgstr "Edit Employee Category"
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_taxonomie.php:28
+msgid "Mitarbeiterkategorie aktualisieren"
+msgstr "Update Employee Category"
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_taxonomie.php:29
+msgid "trennt Kategorien mit Kommas"
+msgstr "separated Categories by Commas"
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_taxonomie.php:30
+msgid "Kategorie suchen"
+msgstr "Search Category"
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_taxonomie.php:31
+msgid "Hinzufügen oder entfernen von Kategorien"
+msgstr "Add or remove from Categories"
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_taxonomie.php:32
+msgid "Wählen Sie aus den am meisten verwendeten Kategorien aus"
+msgstr "Choose from the Categories most commonly used"
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_taxonomie.php:33
+msgid "Nicht gefunden"
+msgstr "Not found"
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_templateDescriptionPage.php:16
+msgid "Anleitung"
+msgstr "Manual"
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_templateDescriptionPage.php:25
+msgid "Anleitung zur Template-Anpassung"
+msgstr "Instructions for template adaptations"
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_templateDescriptionPage.php:26
+msgid ""
+"Dieses Plugin verwendet zwei standard Templates, eines für die Mitarbeiter-"
+"Archivseite und eines für die Mitarbeiter-Detailseite. Diese beiden "
+"Templates sind angepasst ans WordPress Twenty Fifteen Theme. </br>Verwendet "
+"ein Benutzer ein anderes Theme, wird die Mitarbeiterausgabe nicht korrekt "
+"angezeigt. Da im Theme die CSS Klassen fehlen. Um dieses Problem zu umgehen "
+"wird nachfolgend erklärt, wie schnell und einfach ein eigenes Template "
+"erstellt werden kann."
+msgstr ""
+"This plug-in uses two standard templates: One template for the employee "
+"archive page and the other template for the employee detail page. Both "
+"templates have resemblance with the WordPress Twenty fifteen theme. </br>If "
+"an user uses another theme, the emplyee profile won't be displayed "
+"correctly, because the CSS classes are missing in the theme. The aim of "
+"these instructions is to explain, how to avoid that problem and to show how "
+"easy it is to create your own template."
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_templateDescriptionPage.php:27
+msgid ""
+"Das Mitarbeiterverwaltungs-Plugin ist so vorbereitet das die Templates "
+"einfach überschrieben werden können. Dazu muss im Theme Directory eine PHP "
+"Datei erstellt werden, die denselben Namen wie die Templates des Plugins "
+"aufweist."
+msgstr ""
+"The employee management plug-in is predefined so that the templates can "
+"simply be overwritten. Therefore, a PHP file with the identical name of the "
+"plug-in must be created in the theme directory."
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_templateDescriptionPage.php:29
+msgid "Wo ist das Theme Directory?"
+msgstr "How to find the theme directory?"
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_templateDescriptionPage.php:30
+msgid ""
+"Um ins Theme Directory zu gelangen, muss die WordPress Instanz geöffnet "
+"werden. Im Haupt-Directory von WordPress befindet sich ein Ordner Namens "
+"\"wp-content\". Darin gibt es einen Ordner Themes. </br>Im Themes Ordner "
+"öffnet man das gewünschte Theme und erstellt die neuen PHP Files im "
+"Hauptverzeichnis. (Beispiel Pfad: WordPress/wp-content/themes/twentyten/)"
+msgstr ""
+"To reach the theme directory, the WordPress instance must be opened. In the "
+"WordPress main directory there's the folder “wp content”. In this folder "
+"there's a sub-folder called “Themes”. </br>Open the requested theme in the "
+"theme folder and create the new PHP files in the main directory (e.g. path: "
+"WordPress/wp-content/themes/twentyten/)."
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_templateDescriptionPage.php:32
+msgid "Wie müssen die PHP Templates heissen?"
+msgstr "How to name the PHP templates?"
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_templateDescriptionPage.php:33
+msgid ""
+"Es müssen folgende PHP Template Files erstellt werden: </br>- \"archive-"
+"cpt_employee.php\" für die Archivseite der Mitarbeiter. </br>- \"single-"
+"cpt_employee.php\" für die Detailseite eines Mitarbeiters."
+msgstr ""
+"The following PHP template files must be created: </br>- \"archive-"
+"cpt_employee.php\" for the employee archive page. </br>- \"single-"
+"cpt_employee.php\" for the employee detail page."
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_templateDescriptionPage.php:35
+msgid "Inhalt der Templates"
+msgstr "Content of Templates"
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_templateDescriptionPage.php:36
+msgid ""
+"Am Besten werden die beiden Templates aus dem Mitarbeiterverwaltungs-Plugin "
+"kopiert. Somit werden die Ausgaben des Plugin übernommen und es müssen nur "
+"noch die HTML Klassen angepasst werden."
+msgstr ""
+"It's best to copy and paste the two templates from the employee management "
+"plug-in. That way, the profiles of the plug-in are adopted and only the HTML "
+"classes must be adapted."
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_templateDescriptionPage.php:38
+msgid "Styles der Templates"
+msgstr "Styles of the templates"
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_templateDescriptionPage.php:39
+msgid ""
+"Die neuen Templates lassen sich mit CSS einfach in dem im Theme enthaltenen "
+"\"style.css\" File stylen."
+msgstr ""
+"The new templates can easily be styled with CSS. Simply use the “style.css” "
+"file that is part of the theme."
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_fieldValidation.php:46
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_adminColumns.php:22
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/templates/single-cpt_employee.php:33
+msgid "Geburtsdatum"
+msgstr "Birthdate"
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_fieldValidation.php:47
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/templates/single-cpt_employee.php:35
+msgid "Anstellungsdatum"
+msgstr "Employment Date"
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_fieldValidation.php:64
+msgid " Feld muss Email sein"
+msgstr "Field must be Email"
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_fieldValidation.php:69
+msgid " Feld muss ausgefüllt werden"
+msgstr "Field must be filled"
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_postType.php:23
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_postType.php:24
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_postType.php:25
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_postType.php:26
+msgid "Mitarbeiter"
+msgstr "Employee"
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_postType.php:27
+msgid "Alle Mitarbeiter"
+msgstr "All Employees"
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_postType.php:28
+msgid "Mitarbeiter anzeigen"
+msgstr "Show Employee"
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_postType.php:29
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_postType.php:30
+msgid "Mitarbeiter hinzufügen"
+msgstr "Add Employee"
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_postType.php:31
+msgid "Mitarbeiter bearbeiten"
+msgstr "Edit Employee"
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_postType.php:32
+msgid "Mitarbeiter aktualisieren"
+msgstr "Update Employee"
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_postType.php:33
+msgid "Mitarbeiter suchen"
+msgstr "Search Employee"
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_postType.php:34
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_postType.php:35
+msgid "Mitarbeiter nicht gefunden"
+msgstr "Employee not found"
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_postType.php:46
+msgid "cpt_employee"
+msgstr "cpt_employee"
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/includes/custom_postType.php:47
+msgid "Mitarbeiter hinzufügen und bearbeiten"
+msgstr "Add and edit Employee"
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/templates/single-cpt_employee.php:21
+msgid "Kategorie"
+msgstr "Category"
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/templates/single-cpt_employee.php:29
+msgid "E-Mail"
+msgstr "E-Mail"
+
+#: /var/www/mitarbeiterverwaltung-ipa/content/plugins/mitarbeiterverwaltung/templates/single-cpt_employee.php:37
+msgid "Firmen Standort"
+msgstr "Company Location"
+
+#, fuzzy
+#~ msgid "Mitarbeiter2"
+#~ msgstr "Employee"
