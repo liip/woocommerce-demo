@@ -5,7 +5,7 @@
 
 "http://{default}/":
     type: upstream
-    upstream: "wordpress:php"
+    upstream: "php:php"
 
 "http://www.{default}/":
     type: redirect
