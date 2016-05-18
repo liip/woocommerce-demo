@@ -1,17 +1,18 @@
 <?php
 
 if (empty($_ENV['PLATFORM_RELATIONSHIPS'])){
-/*
-You would put here your local configuration for example:
-//define('WP_HOME', "http://localhost");
-//define('WP_SITEURL',"http://localhost");
-//define('DB_NAME', "my_wordpress");
-//define('DB_USER', "user");
-//define('DB_PASSWORD', "a strong password");
-//define('DB_HOST', "127.0.0.1");
-//define('DB_CHARSET', 'utf8');
-//define('DB_COLLATE', '');
-*/
+
+//You would put here your local configuration for example:
+define('WP_HOME', "http://localhost:8080");
+define('WP_SITEURL',"http://localhost:8080");
+define('DB_NAME', "woocommercedemo");
+define('DB_USER', "root");
+define('DB_PASSWORD', "");
+define('DB_HOST', "127.0.0.1");
+define('DB_CHARSET', 'utf8');
+define('DB_COLLATE', '');
+define('FS_METHOD', 'direct');
+
 
 } else {
     // This is where we get the relationships of our application dynamically
